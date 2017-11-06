@@ -172,7 +172,7 @@
 				<body name="thbase" pos="0.034 -0.009 0.029" axisangle="0  1 0  0.785" >
 					<inertial pos="0 0 0" mass="0.010" diaginertia="0.00001 0.00001 0.00001"/>
 					<joint name="THJ4" type="hinge" pos="0 0 0" axis="0 0 -1" range="-1.047 1.047"  user="1121"/>
-					<geom name="V_thbase" type="box" group="1" pos="0 0 0" size="0.001 0.001 0.001" />
+					<geom class="D_Vizual" name="V_thbase" type="box" group="1" pos="0 0 0" size="0.001 0.001 0.001" />
 					<!--Proximal-->
 					<body name="thproximal" pos="0 0 0">
 						<inertial pos="-0.000 -0.000 0.017" quat="0.982 -0.000 0.001 0.191" mass="0.016" diaginertia="0.00001 0.00001 0.00001"/>
@@ -183,7 +183,7 @@
 						<body name="thhub" pos="0 0 0.038">
 							<inertial pos="0 0 0" mass="0.002" diaginertia="0.00001 0.00001 0.00001"/>
 							<joint name="THJ2" type="hinge" pos="0 0 0" axis="1 0 0" range="-0.262 0.262"  user="1119"/>
-							<geom name="V_thhub" type="box" group="1" pos="0 0 0" size="0.001 0.001 0.001"/>
+							<geom class="D_Vizual" name="V_thhub" type="box" group="1" pos="0 0 0" size="0.001 0.001 0.001"/>
 							<!--Middle-->
 							<body name="thmiddle" pos="0 0 0">
 								<inertial pos="0.000 -0.000 0.016" quat="1.000 -0.001 -0.007 0.003" mass="0.016" diaginertia="0.00001 0.00001 0.00001"/>

@@ -22,14 +22,20 @@
 		
 		<body name="hand mount" pos="0 0 0">
 			<inertial mass="0.100" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
-			<joint type="free" limited="false"/>
+			<!-- <joint type="free" limited="false"/> -->
 			<include file="resources/chain.xml"/>
 		</body>
 
-		<body name="ball" pos=".1 -.1 .25">
+		<body name="hand mount" pos="0 0 0">
+			<inertial mass="0.100" pos="0 0 0" diaginertia="0.001 0.001 0.001"/>
+			<!-- <joint type="free" limited="false"/> -->
+			<include file="resources/chain.xml"/>
+		</body>
+
+		<!-- <body name="ball" pos=".1 -.1 .25">
             <geom type="sphere" size=".015" rgba=".7 .2 .2 1"/>
             <joint class="free"/>               
-        </body>
+        </body> -->
 		
     </worldbody>
 	

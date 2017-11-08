@@ -1,5 +1,6 @@
 <mujocoinclude>
 	<!-- ================ ACTUATORS:: TENDON MOTORS ====================== -->
+	<!-- This is seems like an old copy of pneumatic version. Also the gear numbers seems to from the rear side of the cylinder. It hsould be the rod side-->
 	<actuator>
 		<motor name="A_WRJ1r" user="2038" tendon="T_WRJ1r" gear="-198.0"  ctrlrange="-5 5"/>
 		<motor name="A_WRJ1l" user="2039" tendon="T_WRJ1l" gear="-198.0"  ctrlrange="-5 5"/>

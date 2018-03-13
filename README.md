@@ -13,3 +13,17 @@ Adroit has been used in a wide variety of project. A small list is appended belo
 Adroit has found quite some attention in the world media. Details can be found [here](https://vikashplus.github.io/news.html)
 
 [![News](https://github.com/vikashplus/Adroit/blob/master/gallery/news.JPG)](https://vikashplus.github.io/news.html)
+
+
+## Citation
+If the contents of this repo helped you, please consider citing 
+
+``` 
+@phdthesis{Kumar2016thesis,
+    title    = {Manipulators and Manipulation in high dimensional spaces},
+    school   = {University of Washington, Seattle},
+    author   = {Kumar, Vikash},
+    year     = {2016},
+    url      = {https://digital.lib.washington.edu/researchworks/handle/1773/38104}
+}
+```

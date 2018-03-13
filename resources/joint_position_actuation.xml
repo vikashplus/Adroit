@@ -1,6 +1,7 @@
 <!-- ======================================================
 	Model 		:: ADROIT MANIPULATION PLATFORM
-		Source		: Manipulator and Manipulation in High Dimensional Spaces. Vikash Kumar, Ph.D. Thesis, CSE, Univ. of Washington. 2016.
+		Sources		: Manipulator and Manipulation in High Dimensional Spaces. Vikash Kumar, Ph.D. Thesis, CSE, Univ. of Washington. 2016.
+					: Shadow robot company (https://github.com/shadow-robot/sr_common)
  
 	Mujoco		:: Advanced physics simulation engine
 		Source		: www.roboti.us
@@ -14,7 +15,6 @@
 	Copyright 	:: Vikash Kumar
 		Licensed under Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 ====================================================== -->
-
 <mujocoinclude>
 	<actuator>
 	<!-- ================ EQUIVALENT JOINT POSITION MOTORS ====================== -->

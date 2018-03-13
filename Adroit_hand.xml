@@ -1,6 +1,7 @@
 <!-- ======================================================
 	Model 		:: ADROIT MANIPULATION PLATFORM
-		Source		: Manipulator and Manipulation in High Dimensional Spaces. Vikash Kumar, Ph.D. Thesis, CSE, Univ. of Washington. 2016.
+		Sources		: Manipulator and Manipulation in High Dimensional Spaces. Vikash Kumar, Ph.D. Thesis, CSE, Univ. of Washington. 2016.
+					: Shadow robot company (https://github.com/shadow-robot/sr_common)
  
 	Mujoco		:: Advanced physics simulation engine
 		Source		: www.roboti.us

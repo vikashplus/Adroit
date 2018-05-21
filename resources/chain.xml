@@ -17,11 +17,11 @@
 ====================================================== -->
 
 <mujocoinclude>
-	<body name="forearm" pos="0 .01 0" euler="0 0 0">
+	<body name="forearm" pos="0 0 0" euler="0 0 0">
 		<inertial pos="0.001 -0.002 0.29" quat="0.982 -0.016 0.000 -0.188" mass="4" diaginertia="0.01 0.01 0.0075" />
 		<!--<joint name="base" type="free" limited="false"/>-->
-		<geom class="D_Vizual" pos="0 -.01 .04" name="V_forearm"  mesh="forearm" euler="0 0 -1.57"/>
-		<geom class="DC_Hand" name="C_forearm" type="mesh" mesh="forearm_cvx" pos="0 -.01 .04" euler="0 0 -1.57" rgba=".4 .5 .6 .7"/>
+		<geom class="D_Vizual" pos="0 -.01 .181" name="V_forearm"  mesh="forearm" euler="0 0 -1.57"/>
+		<geom class="DC_Hand" name="C_forearm" type="mesh" mesh="forearm_cvx" pos="0 -.01 .181" euler="0 0 -1.57" rgba=".4 .5 .6 .7"/>
 
 		<!--<site name="S_CY36" pos=" 0.034 -0.023 0.123" group="0" />
 		<site name="S_CY38" pos="-0.036  0.009 0.123" group="0" />-->
@@ -29,7 +29,7 @@
 
 
 		<!-- ======= Wrist ======= -->
-		<body name="wrist" pos="0 0 0.256">
+		<body name="wrist" pos="0 0 0.396">
 			<inertial pos="0.003 0.000 0.016" quat="0.504 0.496 0.495 0.504" mass="0.3" diaginertia="0.001 0.001 0.001" />
 			<joint name="WRJ1" type="hinge" pos="0 0 0" axis="0 1 0" range="-0.524 0.175" damping=".5" armature=".005" user="1123"/>
 			<geom class="D_Vizual" name="V_wrist" mesh="wrist"/>
@@ -46,7 +46,7 @@
 				<geom class="D_Vizual" name="V_palm" mesh="palm"/>
 				<geom class="DC_Hand" name="C_palm0" type="box" pos="0.011 0 0.038" size=".032 .0111 .049" rgba=".4 .5 .6 .1"/>
 				<geom class="DC_Hand" name="C_palm1" type="box" pos="-.032 0 0.014" size=".011 .0111 .025" rgba=".4 .5 .6 .1"/>
-				<!--<site name="S_grasp" 	 pos=".007 -.04 0.07" quat="0.0087 -0.6 -0.0034 -0.81  " group="4"/>-->
+				<site name="S_grasp" 	 pos=".007 -.04 0.07" quat="0.0087 -0.6 -0.0034 -0.81  " group="4"/>
 
 
 				<!-- ======= First Finger ======= -->
@@ -149,7 +149,6 @@
 				<body name="lfmetacarpal" pos="-0.017 0 0.044">
 					<inertial pos="-0.014 0.001 0.014" quat="0.709 -0.092 -0.063 0.696" mass="0.075" diaginertia="0.00001 0.00001 0.00001"/>
 					<joint name="LFJ4" type="hinge" pos="0 0 0" axis="0.571 0 0.821" range="0 0.698"  user="1116"/>
-					<!--<joint name="LFJ4" type="hinge" pos="0 0 0" axis="0.571 0 0.821" range="0 0.0698"  user="1116"/>-->
 					<geom class="D_Vizual" name="V_lfmetacarpal" pos="-0.016 0.000 -0.023" mesh="lfmetacarpal"/>
 					<geom class="DC_Hand" name="C_lfmetacarpal" type="box" pos="-.0165 0 0.01" size=".0095 .0111 .025" rgba=".4 .5 .6 .2"/>
 					<!--Knuckle-->

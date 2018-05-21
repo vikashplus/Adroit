@@ -17,19 +17,19 @@
 ====================================================== -->
 
 <mujocoinclude>
-	<body name="_forearm" pos="0 .01 0" euler="0 0 0">
+	<body name="_forearm" pos="0 0 0" euler="0 0 0">
 		<inertial pos="0.001 -0.002 0.29" quat="0.982 -0.016 0.000 -0.188" mass="4" diaginertia="0.01 0.01 0.0075" />
 		<!--<joint name="_base" type="free" limited="false"/>-->
-		<geom class="_D_Vizual" pos="0 -.01 .04" name="_V_forearm"  mesh="forearm" euler="0 0 -1.57"/>
-		<!-- <geom class="DC_Hand" name="_C_forearm" type="mesh" mesh="forearm_cvx" pos="0 -.01 .04" euler="0 0 -1.57" rgba=".4 .5 .6 .7"/> -->
+		<geom class="_D_Vizual" pos="0 -.01 .181" name="_V_forearm"  mesh="forearm" euler="0 0 -1.57"/>
+		<!-- <geom class="DC_Hand" name="_C_forearm" type="mesh" mesh="forearm_cvx" pos="0 -.01 .181" euler="0 0 -1.57" rgba=".4 .5 .6 .7"/> -->
 
-		<!--<site name="_S_CY36" pos=" 0.034 -0.023 0.123" group="0" />
-		<site name="_S_CY38" pos="-0.036  0.009 0.123" group="0" />-->
+		<!--<site name="S_CY36" pos=" 0.034 -0.023 0.123" group="0" />
+		<site name="S_CY38" pos="-0.036  0.009 0.123" group="0" />-->
 
 
 
 		<!-- ======= Wrist ======= -->
-		<body name="_wrist" pos="0 0 0.256">
+		<body name="_wrist" pos="0 0 0.396">
 			<inertial pos="0.003 0.000 0.016" quat="0.504 0.496 0.495 0.504" mass="0.3" diaginertia="0.001 0.001 0.001" />
 			<joint name="_WRJ1" type="hinge" pos="0 0 0" axis="0 1 0" range="-0.524 0.175" damping=".5" armature=".005" user="1123"/>
 			<geom class="_D_Vizual" name="_V_wrist" mesh="wrist"/>

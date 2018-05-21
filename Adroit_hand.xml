@@ -35,7 +35,7 @@
 		<geom name="ground" pos="0 0 0" size="1 1 5" material="MatGnd" type="plane" contype="1" conaffinity="1"/>
 		
 		<body name="mocap1" mocap="true" pos="0 0 0">
-            <geom type="mesh" group="2" pos="0 0 .04" mesh="forearm_cvx" contype="0" conaffinity="0" euler="0 0 -1.57" rgba=".9 .5 .5 .2"/>
+            <geom type="mesh" group="2" pos="0 -.01 .181" mesh="forearm_cvx" contype="0" conaffinity="0" euler="0 0 -1.57" rgba=".9 .5 .5 .2"/>
         </body>
 		
 		<body name="hand mount" pos="0 0 0">

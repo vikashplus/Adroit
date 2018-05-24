@@ -30,7 +30,8 @@
 
 	<option	timestep="0.002"
 			iterations="20"
-			apirate="200">
+			apirate="200"
+			noslip_iterations="20">
 	</option>
 
 	<visual>

@@ -64,36 +64,38 @@
 	</asset>
 
 	<default>
-		<geom friction="1 0.005 0.001" condim="3" margin="0.0005" contype="1" conaffinity="1"/>
-		<joint limited="true" damping="0.05" armature=".001" margin="0.01" frictionloss="0.001"/>
-		<tendon limited="true"/>
-		<!--<mesh scale="0.001 0.001 0.001"/>-->
-		<site size="0.005" rgba=".4 .9 .4 1"/>
+		<default class="Adroit">
+			<geom friction="1 0.005 0.001" condim="3" margin="0.0005" contype="1" conaffinity="1"/>
+			<joint limited="true" damping="0.05" armature=".001" margin="0.01" frictionloss="0.001"/>
+			<tendon limited="true"/>
+			<!--<mesh scale="0.001 0.001 0.001"/>-->
+			<site size="0.005" rgba=".4 .9 .4 1"/>
 
-		<!--Touch geoms-->
-		<default class="D_Touch">
-			<site type="box" size="0.009 0.004 0.013" pos="0 -.004 .018" rgba=".8 .8 .8 .15" group="4"/>
+			<!--Touch geoms-->
+			<default class="D_Touch">
+				<site type="box" size="0.009 0.004 0.013" pos="0 -.004 .018" rgba=".8 .8 .8 .15" group="4"/>
+			</default>
+
+			<!--Collission geoms-->
+			<default class="DC_Hand">
+				<geom material="MatColl" contype="1" conaffinity="0" group="4"/>
+			</default>
+
+			<!--Meshes-->
+			<default class="D_Vizual">
+				<geom material="MatViz" contype="0" conaffinity="0" group="1" type="mesh"/>
+			</default>
+			<default class="_D_Vizual">
+				<geom material="_MatViz" contype="0" conaffinity="0" group="2" type="mesh"/>
+			</default>
+
+			<default class="free">
+				<joint type="free" damping="0" armature="0" limited="false"/>
+			</default>
+
+			<!--EQUIVALENT JOINT MOTORS-->
+			<general ctrllimited="true" ctrlrange="-1 1" dyntype="none" gaintype="fixed"/>
 		</default>
-
-		<!--Collission geoms-->
-		<default class="DC_Hand">
-			<geom material="MatColl" contype="1" conaffinity="0" group="4"/>
-		</default>
-
-		<!--Meshes-->
-		<default class="D_Vizual">
-			<geom material="MatViz" contype="0" conaffinity="0" group="1" type="mesh"/>
-		</default>
-		<default class="_D_Vizual">
-			<geom material="_MatViz" contype="0" conaffinity="0" group="2" type="mesh"/>
-		</default>
-
-		<default class="free">
-            <joint type="free" damping="0" armature="0" limited="false"/>
-        </default>
-
-		<!--EQUIVALENT JOINT MOTORS-->
-		<general ctrllimited="true" ctrlrange="-1 1" dyntype="none" gaintype="fixed"/>
 	</default>
 
 	<contact>

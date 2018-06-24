@@ -17,7 +17,7 @@
 ====================================================== -->
 
 <mujocoinclude>
-	<body name="_forearm" pos="0 .01 0" euler="0 0 0">
+	<body name="_forearm" childclass="Adroit" pos="0 .01 0" euler="0 0 0">
 		<inertial pos="0.001 -0.002 0.29" quat="0.982 -0.016 0.000 -0.188" mass="4" diaginertia="0.01 0.01 0.0075" />
 		<!--<joint name="_base" type="free" limited="false"/>-->
 		<geom class="_D_Vizual" pos="0 -.01 .04" name="_V_forearm"  mesh="forearm" euler="0 0 -1.57"/>

@@ -40,18 +40,18 @@
     </visual>
 
 	<asset>
-		<mesh name="forearm" 		 file="resources/meshes/forearm_electric.stl"/>
-		<mesh name="forearm_cvx" 	 file="resources/meshes/forearm_electric_cvx.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/wrist.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/palm.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/knuckle.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/F3.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/F2.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/F1.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/lfmetacarpal.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/TH3_z.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/TH2_z.stl"/>
-		<mesh scale=".001 .001 .001" file="resources/meshes/TH1_z.stl"/>
+		<mesh name="forearm"         file="../Adroit/resources/meshes/forearm_electric.stl"/>
+		<mesh name="forearm_cvx"     file="../Adroit/resources/meshes/forearm_electric_cvx.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/wrist.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/palm.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/knuckle.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/F3.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/F2.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/F1.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/lfmetacarpal.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/TH3_z.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/TH2_z.stl"/>
+		<mesh scale=".001 .001 .001" file="../Adroit/resources/meshes/TH1_z.stl"/>
 
 		<texture name="texgeom" type="cube" builtin="flat" mark="cross" width="127" height="127"
             rgb1=".3 .6 .5" rgb2=".3 .6 .5" markrgb="0 0 0" random="0.01"/>
